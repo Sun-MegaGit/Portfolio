@@ -29,7 +29,7 @@ nav{
     cursor: pointer;
 }
 span{
-    color: rgba(143, 22, 241, 0.87);
+    color: rgba(51, 32, 66, 0.87);
 }
 nav ul li{
     list-style-type: none;
@@ -37,7 +37,7 @@ nav ul li{
     padding: 10px 15px;
 }
 nav ul li a{
-    color: rgb(2, 5, 36);
+    color: white;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
@@ -46,9 +46,9 @@ nav ul li a:hover{
     color: #f5ebee;
 }
 .btn{
-    background-color: red;
+    background-color: #f30b0b;
     text-decoration: none;
-    color: white;
+    color: rgba(243, 245, 123, 0.959);
     border: 2px solid transparent;
     font-weight: bold;
     padding: 10px 25px;
@@ -65,17 +65,17 @@ nav ul li a:hover{
     transform: translateY(-50%);
 }
 h1{
-    color: rgb(94, 109, 245);
-    font-size: 75px;
+    color: rgb(247, 95, 8);
+    font-size: 65px;
     margin: 20px 0px 20px;
 }
 h3{
-    color: rgb(20, 2, 2);
+    color: rgb(10, 21, 119);
     font-size: 25px;
     margin-bottom: 50px;
 }
 h4{
-    color: #0c0c0be1;
+    color: #3310afe1;
     letter-spacing: 2px;
     font-size: 20px;
 }
@@ -99,7 +99,7 @@ h4{
     box-shadow: 0px 0px 5px #000 0px 0px 15px #858585; 
     top: 6px;
     right: 6px;
-    margin-top: 227px;
+    margin-top: 217px;
 }
 .about{
     width: 100%;
