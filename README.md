@@ -1,2 +1,1 @@
 # Portfolio
-HTML/CSS/JavaScript

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sunil portfolio </title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/73dadc8bc7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <script>
+        function createParticles() {
+            for (let i = 0; i < 100; i++) {
+                let particle = document.createElement('div');
+                particle.classList.add('particle');
+                
+                
+                let size = Math.random() * 10 + 5; // Size between 3px and 15px
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+    
+                particle.style.top = `${Math.random() * window.innerHeight}px`;
+                particle.style.left = `${Math.random() * window.innerWidth}px`;
+    
+                
+                let color = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
+                particle.style.backgroundColor = color;
+                
+                
+                particle.style.animationDuration = `${Math.random() * 5 + 3}s`; // Randomize speed
+                particle.style.animationDelay = `${Math.random() * 1}s`; // Randomize delay
+                
+                document.body.appendChild(particle);
+            }
+        }
+    
+        createParticles();
+    </script>
+    <section id="home" class="hero">
+        <nav>
+            <h2 class="logo"> Port<span>folio</span> </h2>
+             <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="services.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        
+        <div class="content">
+            <h4> Hello, my name is </h4>
+            <section class="typewriter" data-testid="typewriter-text"><h1> Sunil Vadlakonda </h1></section><h1> 
+                <div class="word-container">
+                    <span class="changing-word">Junior</span>
+                    <span class="changing-word">Front-end</span>
+                    <span class="changing-word">Developer</span>
+                </div>
+                <script>
+                    const words = document.querySelectorAll('.changing-word');
+                    let currentIndex = 0;
+            
+                    function changeWord() {
+                        words[currentIndex].style.opacity = 0;
+            
+                        currentIndex = (currentIndex + 1) % words.length;
+            
+                        words[currentIndex].style.opacity = 1;
+                    }
+                        setInterval(changeWord, 3000);  // 3000ms = 3 seconds
+                </script>
+        </div>
+    </section>
+    
+</body>
+</html>
+
