@@ -139,8 +139,8 @@ h4{
 }
 .about{
     width: 100%;
-    padding: 100px 5px;
-    background-color: #2a2930;
+    padding: 75px 5px 100px;
+    background-color: transparent;
     height:100vH;
 }
 .about img{
