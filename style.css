@@ -138,10 +138,9 @@ h4{
     font-size: 20px;
 }
   
-.about {
-    padding: 60px 5px 15px;
-    height: auto;
-    min-height: 100vh;
+about {
+    padding: 100px 5px;
+    height: 100vh;
 }
 .about img{
     height: 550px;
