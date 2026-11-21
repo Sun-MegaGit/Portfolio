@@ -137,10 +137,11 @@ h4{
     letter-spacing: 2px;
     font-size: 20px;
 }
-  
-about {
+.about{
+    width: 100%;
     padding: 100px 5px;
-    height: 100vh;
+    background-color: #2a2930;
+    height:100vH;
 }
 .about img{
     height: 550px;
