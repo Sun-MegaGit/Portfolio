@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+html {
+    height: auto;
+    min-height: 100%;
+    overflow-y: auto;
+}
+
 body {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
+    min-height: 100%;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .particle {
@@ -159,12 +164,12 @@ h4 {
     background-color: #101010;
 }
 
-.about img {
-    width: min(350px, 100%);
+.about {
+    width: 100%;
     height: auto;
-    aspect-ratio: 350 / 550;
-    object-fit: cover;
-    border-radius: 30%;
+    min-height: 0;
+    padding: 75px 5% 120px;
+    background-color: #101010;
 }
 
 .about-text {
@@ -290,16 +295,16 @@ h5 {
 }
 
 .projects {
-    background-color: #181212de;
     width: 100%;
-    min-height: 100vh;
     height: auto;
-    padding: 0 0 20px;
+    min-height: 0;
+    padding: 40px 0 120px;
+    margin-top: 0;
+    background-color: #181212de;
     color: white;
     font-size: 40px;
     text-align: center;
 }
-
 .projects .box {
     display: flex;
     justify-content: center;
