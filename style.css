@@ -138,11 +138,9 @@ h4{
     font-size: 20px;
 }
   
-.about{
-    width: 100%;
+.about {
     padding: 100px 5px;
-    background-color: #2a2930;
-    height:100vH;
+    height: 100vh;
 }
 .about img{
     height: 550px;
